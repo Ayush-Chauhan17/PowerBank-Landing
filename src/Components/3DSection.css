@@ -1,0 +1,51 @@
+/* ThreeDSection.css */
+.three-d-section {
+    text-align: center;
+    padding: 60px 20px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    /* background-color: #0f0f0f; */
+    color: white;
+  }
+  
+  .three-d-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .three-d-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #aaaaaa;
+  }
+  
+  .three-d-embed iframe {
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.1);
+  }
+  @media (max-width: 786px) {
+    .three-d-section {
+      padding: 40px 15px;
+    }
+  
+    .three-d-section h2 {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+    }
+  
+    .three-d-section p {
+      font-size: 1rem;
+      line-height: 1.6rem;
+      padding: 0 10px;
+    }
+  
+    .three-d-embed iframe {
+      width: 100%;
+      height: 300px; /* reduce height for mobile screens */
+      border-radius: 12px;
+    }
+  }
+  

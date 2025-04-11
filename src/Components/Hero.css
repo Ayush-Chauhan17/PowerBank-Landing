@@ -1,0 +1,80 @@
+.hero-container {
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-heading {
+  font-size: 48px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #DA7C25, #B923E1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.hero-subtext {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.video-box {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+  border: 2px solid #da7c25;
+}
+
+.video-content {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 🔻 Responsive tweaks below */
+@media (max-width: 1024px) {
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-subtext {
+    font-size: 18px;
+  }
+
+  .video-box {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 32px;
+  }
+
+  .hero-subtext {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .video-box {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 26px;
+  }
+
+  .hero-subtext {
+    font-size: 15px;
+  }
+
+  .video-box {
+    margin-bottom: 20px;
+  }
+}
