@@ -28,7 +28,7 @@ A visually engaging and responsive landing page for a Power Bank product built u
 
 ## 📸 Preview
 
-![Preview](./src/assets/preview.png)
+![Preview](./src/assets/previewg.png)
 
 ---
 
