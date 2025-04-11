@@ -38,11 +38,12 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/powerbank-landing.git
-cd powerbank-landing
+git clone https://github.com/Ayush-Chauhan17/PowerBank-Landing.git
+cd PowerBank-Landing
 
 # Install dependencies
 npm install
 
 # Start development server
 npm run dev
+
